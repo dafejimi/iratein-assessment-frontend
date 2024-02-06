@@ -21,8 +21,8 @@ const Login: React.FC<LoginProps> = ({setUserId}) => {
 
     const handleLogin = () => {
         let response: any = login(username, password)
-        navigate(`/messenger/${response.user_id}`)
-        //console.log(response)
+        //navigate(`/messenger/${response.user_id}`)
+        console.log(response)
     }
 
     return (

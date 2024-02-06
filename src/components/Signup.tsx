@@ -26,8 +26,8 @@ const Signup: React.FC<SignupProps> = ({setUserId, setIsSignedUp}) => {
 
     const handleLogin = () => {
         let response: any = signup(username, password)
-        navigate(`/messenger/${response.user_id}`)
-       //console.log(response)
+        //navigate(`/messenger/${response.user_id}`)
+        console.log(response)
     }
     
     return (
